@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #fff;
+}
+body{
+    background: linear-gradient(to right, #dd3e54, #6be585);
+}
+.container {
+    padding: 100px;
+}
+.header_info{
+    text-align: center;
+}  
+.header_info_img{
+    image-rendering: pixelated;
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    filter: drop-shadow(0 0 2px #780909);
+}
+.img_momo{
+    width: 14px;
+    height: 14px;
+    padding: 4px 6px;
+}
+h3{
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: 400;
+}
+p{
+    letter-spacing: 0.3px;
+    font-size: 20px;
+    padding-top: 6px;
+    
+}
+ul {
+    list-style-type: none;
+    padding-top: 6px;
+    
+}
+ul > li{
+    margin: 12px 0;
+    justify-content: center;
+    display: flex;
+}
+ul > li > a{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 8px;
+    width: 220px;
+    border-radius: 20px;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+    align-items: center;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: flex;
+    justify-content: center;
+}
+ul> li > a>  i {
+    font-size: 16px;
+    color: #000;
+    padding: 4px 6px 4px 6px;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  @media (min-width: 1024px) {
+    ul> li > a:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  
+    ul> li > a:hover i {
+      color: #fff;
+    }
+   .link_momo:hover{
+    background-color: #a50064;
+   }
+   .link_facebook:hover{
+    background-color: #0000ff;
+   }
+   .link_telegram:hover{
+    background-color: #0088cc;
+   }
+   .link_gmail:hover{
+    background-color:  #c71610;
+   }
+  
+  
+   
+  }
+  
+  ul> li > a> i {
+    font-size: 16px;
+    color: #000;
+    padding: 4px 6px 4px 6px;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+    @media (min-width: 740px) and (max-width: 1023px) {
+    p {
+      font-family: Alegreya Sans;
+      padding: 0 20px 0 20px;
+      text-align: center;
+    }
+  
+    ul>li>a:hover {
+      background-color: none;
+      color: none;
+    }
+    
+  
+    ul>li>a:hover i {
+      color: none;
+    }
+  }
+  
+  /* mobile */
+  @media (max-width: 739px) {
+    .container {
+      padding: 90px 12px 0 12px;
+    }
+  
+    ul>li>a:hover {
+      background-color: none;
+      color: none;
+    }
+  
+    ul>li>a:hover i {
+      color: none;
+    }
+  
+    p {
+      font-family: Alegreya Sans;
+      padding: 0 6px 0 6px;
+      text-align: center;
+    }
+  }
